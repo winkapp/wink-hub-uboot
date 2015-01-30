@@ -1,0 +1,966 @@
+Archive member included because of file (symbol)
+
+/work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+                              arch/arm/cpu/arm926ejs/mxs/built-in.o (__aeabi_uidiv)
+/work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+                              arch/arm/cpu/arm926ejs/mxs/built-in.o (__aeabi_idiv)
+/work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+                              lib/built-in.o (__aeabi_llsr)
+/work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+                              lib/built-in.o (__aeabi_llsl)
+/work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+                              /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o) (__div0)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/start.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/start.o
+ .text          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .text.invalidate_dcache_all
+                0x0000000000000000        0xc arch/arm/cpu/arm926ejs/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000       0x14 arch/arm/cpu/arm926ejs/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000       0x28 arch/arm/cpu/arm926ejs/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000       0x30 arch/arm/cpu/arm926ejs/built-in.o
+ .text.flush_cache
+                0x0000000000000000       0x34 arch/arm/cpu/arm926ejs/built-in.o
+ .text.__l2_cache_disable
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/built-in.o
+ .text.cleanup_before_linux
+                0x0000000000000000       0x24 arch/arm/cpu/arm926ejs/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .comment       0x0000000000000000       0x72 arch/arm/cpu/arm926ejs/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2b arch/arm/cpu/arm926ejs/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x68 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_pubnames
+                0x0000000000000000       0xc6 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_info    0x0000000000000000      0x777 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_abbrev  0x0000000000000000      0x2e6 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_line    0x0000000000000000      0x290 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_frame   0x0000000000000000       0x9c arch/arm/cpu/arm926ejs/built-in.o
+ .debug_str     0x0000000000000000      0x4c7 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_loc     0x0000000000000000       0x32 arch/arm/cpu/arm926ejs/built-in.o
+ .debug_ranges  0x0000000000000000       0x58 arch/arm/cpu/arm926ejs/built-in.o
+ .text          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_get_pclk
+                0x0000000000000000       0x7c arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_set_ioclk
+                0x0000000000000000       0x68 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_set_sspclk
+                0x0000000000000000       0xe8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_get_sspclk
+                0x0000000000000000       0x7c arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_set_ssp_busclock
+                0x0000000000000000       0xac arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_set_lcdclk
+                0x0000000000000000      0x154 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxc_get_clock
+                0x0000000000000000      0x184 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.lowlevel_init
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.reset_cpu
+                0x0000000000000000       0x30 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mx28_fixup_vt
+                0x0000000000000000       0x28 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.arch_misc_init
+                0x0000000000000000       0x30 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mx28_adjust_mac
+                0x0000000000000000       0x24 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_dram_init
+                0x0000000000000000       0x30 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.imx_get_mac_from_fuse
+                0x0000000000000000       0x94 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.cpu_eth_init
+                0x0000000000000000       0x54 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.do_mx28_showclocks
+                0x0000000000000000       0x88 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.print_cpuinfo
+                0x0000000000000000       0xf0 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.arch_cpu_init
+                0x0000000000000000       0x74 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.enable_caches
+                0x0000000000000000       0x10 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.board_init_f
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.board_init_r
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_adjust_memory_params
+                0x0000000000000000        0x4 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.get_ticks
+                0x0000000000000000       0x4c arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.get_timer_masked
+                0x0000000000000000       0x48 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.get_timer
+                0x0000000000000000       0x50 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.__udelay
+                0x0000000000000000       0x44 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.get_tbclk
+                0x0000000000000000        0x8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.timer_init
+                0x0000000000000000       0x3c arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.CSWTCH.63
+                0x0000000000000000       0x10 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.CSWTCH.49
+                0x0000000000000000       0x14 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .u_boot_list_2_cmd_2_clocks
+                0x0000000000000000       0x1c arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text          0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.__arm_init_before_mmu
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.arm_init_domains
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.set_section_dcache
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .text.__mmu_page_table_flush
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.mmu_set_region_dcache_behaviour
+                0x0000000000000000       0x5c arch/arm/lib/built-in.o
+ .text.dram_bank_mmu_setup
+                0x0000000000000000       0x58 arch/arm/lib/built-in.o
+ .text.icache_status
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.dcache_status
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.cache_disable
+                0x0000000000000000       0x8c arch/arm/lib/built-in.o
+ .text.dcache_disable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.icache_disable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.cache_enable
+                0x0000000000000000       0xcc arch/arm/lib/built-in.o
+ .text.icache_enable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.dcache_enable
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.__flush_cache
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.__flush_dcache_all
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.__enable_caches
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.interrupt_init
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.enable_interrupts
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.disable_interrupts
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.show_regs
+                0x0000000000000000      0x140 arch/arm/lib/built-in.o
+ .text.bad_mode
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.do_irq   0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_fiq   0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_not_used
+                0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_data_abort
+                0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_prefetch_abort
+                0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_software_interrupt
+                0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_undefined_instruction
+                0x0000000000000000       0x24 arch/arm/lib/built-in.o
+ .text.do_reset
+                0x0000000000000000       0x30 arch/arm/lib/built-in.o
+ .rodata.str1.1
+                0x0000000000000000      0x2e5 arch/arm/lib/built-in.o
+ .rodata.C.35.3744
+                0x0000000000000000       0x80 arch/arm/lib/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .comment       0x0000000000000000       0xe4 arch/arm/lib/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x29 arch/arm/lib/built-in.o
+ .debug_aranges
+                0x0000000000000000      0x170 arch/arm/lib/built-in.o
+ .debug_pubnames
+                0x0000000000000000      0x28b arch/arm/lib/built-in.o
+ .debug_info    0x0000000000000000     0x19ac arch/arm/lib/built-in.o
+ .debug_abbrev  0x0000000000000000      0x716 arch/arm/lib/built-in.o
+ .debug_line    0x0000000000000000      0x8bc arch/arm/lib/built-in.o
+ .debug_frame   0x0000000000000000      0x2ec arch/arm/lib/built-in.o
+ .debug_str     0x0000000000000000      0xde1 arch/arm/lib/built-in.o
+ .debug_loc     0x0000000000000000      0x5c5 arch/arm/lib/built-in.o
+ .debug_ranges  0x0000000000000000      0x280 arch/arm/lib/built-in.o
+ .text          0x0000000000000000        0x0 board/freescale/mx28evk/built-in.o
+ .data          0x0000000000000000        0x0 board/freescale/mx28evk/built-in.o
+ .bss           0x0000000000000000        0x0 board/freescale/mx28evk/built-in.o
+ .text          0x0000000000000000        0x0 common/built-in.o
+ .text.get_env_id
+                0x0000000000000000       0x10 common/built-in.o
+ .text.envmatch
+                0x0000000000000000       0x64 common/built-in.o
+ .text.getenv_f
+                0x0000000000000000       0xc0 common/built-in.o
+ .text.getenv   0x0000000000000000       0x80 common/built-in.o
+ .text.getenv_ulong
+                0x0000000000000000       0x30 common/built-in.o
+ .text.getenv_hex
+                0x0000000000000000       0x34 common/built-in.o
+ .text._do_env_set
+                0x0000000000000000      0x1cc common/built-in.o
+ .text.setenv   0x0000000000000000       0x64 common/built-in.o
+ .text.setenv_hex
+                0x0000000000000000       0x38 common/built-in.o
+ .text.setenv_ulong
+                0x0000000000000000       0x20 common/built-in.o
+ .text.console_setfile
+                0x0000000000000000       0xa0 common/built-in.o
+ .text.fgetc    0x0000000000000000       0x28 common/built-in.o
+ .text.ftstc    0x0000000000000000       0x28 common/built-in.o
+ .text.fputc    0x0000000000000000       0x2c common/built-in.o
+ .text.fputs    0x0000000000000000       0x2c common/built-in.o
+ .text.disable_ctrlc
+                0x0000000000000000       0x18 common/built-in.o
+ .text.had_ctrlc
+                0x0000000000000000       0x10 common/built-in.o
+ .text.clear_ctrlc
+                0x0000000000000000       0x14 common/built-in.o
+ .text.dbg      0x0000000000000000        0xc common/built-in.o
+ .text.console_init_f
+                0x0000000000000000       0x10 common/built-in.o
+ .text.search_device
+                0x0000000000000000       0x28 common/built-in.o
+ .text.console_assign
+                0x0000000000000000       0x40 common/built-in.o
+ .text.fprintf  0x0000000000000000       0x5c common/built-in.o
+ .text.puts     0x0000000000000000       0x28 common/built-in.o
+ .text.vprintf  0x0000000000000000       0x50 common/built-in.o
+ .text.printf   0x0000000000000000       0x64 common/built-in.o
+ .text.stdio_print_current_devices
+                0x0000000000000000       0xb8 common/built-in.o
+ .text.console_init_r
+                0x0000000000000000       0xf0 common/built-in.o
+ .text.serial_printf
+                0x0000000000000000       0x58 common/built-in.o
+ .text.putc     0x0000000000000000       0x28 common/built-in.o
+ .text.tstc     0x0000000000000000       0x24 common/built-in.o
+ .text.getc     0x0000000000000000       0x24 common/built-in.o
+ .text.ctrlc    0x0000000000000000       0x58 common/built-in.o
+ .text.malloc_usable_size
+                0x0000000000000000       0x44 common/built-in.o
+ .text.mallopt  0x0000000000000000       0x74 common/built-in.o
+ .text.mem_malloc_init
+                0x0000000000000000       0x3c common/built-in.o
+ .text.sbrk     0x0000000000000000       0x6c common/built-in.o
+ .text.malloc_trim
+                0x0000000000000000       0xd4 common/built-in.o
+ .text.free     0x0000000000000000      0x22c common/built-in.o
+ .text.cfree    0x0000000000000000        0x4 common/built-in.o
+ .text.malloc   0x0000000000000000      0x61c common/built-in.o
+ .text.memalign
+                0x0000000000000000      0x110 common/built-in.o
+ .text.pvalloc  0x0000000000000000       0x18 common/built-in.o
+ .text.valloc   0x0000000000000000        0xc common/built-in.o
+ .text.calloc   0x0000000000000000       0xe0 common/built-in.o
+ .text.realloc  0x0000000000000000      0x460 common/built-in.o
+ .text.__env_get_char_spec
+                0x0000000000000000        0xc common/built-in.o
+ .text.env_get_char_memory
+                0x0000000000000000       0x24 common/built-in.o
+ .text.env_get_char
+                0x0000000000000000       0x4c common/built-in.o
+ .text.env_get_addr
+                0x0000000000000000       0x24 common/built-in.o
+ .text.set_default_vars
+                0x0000000000000000       0x38 common/built-in.o
+ .text.set_default_env
+                0x0000000000000000       0xc4 common/built-in.o
+ .text.env_relocate
+                0x0000000000000000       0x14 common/built-in.o
+ .text.env_import
+                0x0000000000000000       0xe0 common/built-in.o
+ .text.getenv_default
+                0x0000000000000000       0x30 common/built-in.o
+ .text.getenv_yesno
+                0x0000000000000000       0x4c common/built-in.o
+ .text.env_init
+                0x0000000000000000       0x1c common/built-in.o
+ .text.readenv  0x0000000000000000       0xd0 common/built-in.o
+ .text.env_relocate_spec
+                0x0000000000000000      0x1d4 common/built-in.o
+ .text.writeenv
+                0x0000000000000000       0xb0 common/built-in.o
+ .text.erase_and_write_env
+                0x0000000000000000       0x84 common/built-in.o
+ .text.saveenv  0x0000000000000000      0x140 common/built-in.o
+ .text.ft_verify_fdt
+                0x0000000000000000        0x8 common/built-in.o
+ .text.arch_fixup_memory_node
+                0x0000000000000000        0x8 common/built-in.o
+ .text.fdt_error
+                0x0000000000000000       0x2c common/built-in.o
+ .text.image_setup_libfdt
+                0x0000000000000000      0x104 common/built-in.o
+ .text.boot_get_fdt
+                0x0000000000000000      0x2c0 common/built-in.o
+ .text.boot_relocate_fdt
+                0x0000000000000000      0x1bc common/built-in.o
+ .text.boot_fdt_add_mem_rsv_regions
+                0x0000000000000000       0x94 common/built-in.o
+ .text.image_multi_count
+                0x0000000000000000       0x24 common/built-in.o
+ .text.get_table_entry_name
+                0x0000000000000000       0x2c common/built-in.o
+ .text.genimg_get_os_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_arch_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_type_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_comp_name
+                0x0000000000000000       0x38 common/built-in.o
+ .text.genimg_get_image
+                0x0000000000000000        0x4 common/built-in.o
+ .text.genimg_has_config
+                0x0000000000000000        0x8 common/built-in.o
+ .text.getenv_bootm_low
+                0x0000000000000000       0x30 common/built-in.o
+ .text.get_table_entry_id
+                0x0000000000000000       0x4c common/built-in.o
+ .text.genimg_get_comp_id
+                0x0000000000000000       0x18 common/built-in.o
+ .text.genimg_get_type_id
+                0x0000000000000000       0x18 common/built-in.o
+ .text.genimg_get_arch_id
+                0x0000000000000000       0x18 common/built-in.o
+ .text.genimg_get_os_id
+                0x0000000000000000       0x18 common/built-in.o
+ .text.image_multi_getimg
+                0x0000000000000000       0xa8 common/built-in.o
+ .text.genimg_get_format
+                0x0000000000000000       0x48 common/built-in.o
+ .text.genimg_print_time
+                0x0000000000000000       0x48 common/built-in.o
+ .text.genimg_print_size
+                0x0000000000000000       0x30 common/built-in.o
+ .text.image_print_contents
+                0x0000000000000000      0x284 common/built-in.o
+ .text.memmove_wd
+                0x0000000000000000        0xc common/built-in.o
+ .text.boot_ramdisk_high
+                0x0000000000000000      0x120 common/built-in.o
+ .text.image_setup_linux
+                0x0000000000000000       0x88 common/built-in.o
+ .text.getenv_bootm_size
+                0x0000000000000000       0x5c common/built-in.o
+ .text.getenv_bootm_mapsize
+                0x0000000000000000       0x30 common/built-in.o
+ .text.image_check_dcrc
+                0x0000000000000000       0x60 common/built-in.o
+ .text.image_check_hcrc
+                0x0000000000000000       0x68 common/built-in.o
+ .text.boot_get_ramdisk
+                0x0000000000000000      0x240 common/built-in.o
+ .text.stdio_get_list
+                0x0000000000000000        0xc common/built-in.o
+ .text.stdio_clone
+                0x0000000000000000       0x38 common/built-in.o
+ .text.stdio_register
+                0x0000000000000000       0x40 common/built-in.o
+ .text.stdio_init
+                0x0000000000000000       0x90 common/built-in.o
+ .text.stdio_get_by_name
+                0x0000000000000000       0x4c common/built-in.o
+ .rodata.str1.1
+                0x0000000000000000      0xd6b common/built-in.o
+ .rodata.default_environment
+                0x0000000000000000      0x4c8 common/built-in.o
+ .rodata.__func__.4012
+                0x0000000000000000       0x10 common/built-in.o
+ .rodata.__func__.4042
+                0x0000000000000000        0xc common/built-in.o
+ .rodata.location.4875
+                0x0000000000000000       0x60 common/built-in.o
+ .rodata.__func__.4876
+                0x0000000000000000        0x8 common/built-in.o
+ .rodata.uimage_comp
+                0x0000000000000000       0x48 common/built-in.o
+ .rodata.uimage_os
+                0x0000000000000000       0x6c common/built-in.o
+ .rodata.uimage_arch
+                0x0000000000000000      0x114 common/built-in.o
+ .rodata.uimage_type
+                0x0000000000000000       0xd8 common/built-in.o
+ .data          0x0000000000000000        0x0 common/built-in.o
+ .data.env_id   0x0000000000000000        0x4 common/built-in.o
+ .data.av_      0x0000000000000000      0x408 common/built-in.o
+ .data.mmap_threshold
+                0x0000000000000000        0x4 common/built-in.o
+ .data.sbrk_base
+                0x0000000000000000        0x4 common/built-in.o
+ .data.trim_threshold
+                0x0000000000000000        0x4 common/built-in.o
+ .data.env_htab
+                0x0000000000000000       0x10 common/built-in.o
+ .data.env_name_spec
+                0x0000000000000000        0x4 common/built-in.o
+ .data.load_addr
+                0x0000000000000000        0x4 common/built-in.o
+ .data.stdio_names
+                0x0000000000000000        0xc common/built-in.o
+ .bss           0x0000000000000000        0x0 common/built-in.o
+ .bss.ctrlc_was_pressed
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.ctrlc_disabled
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.n_mmaps_max
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.mem_malloc_brk
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.max_total_mem
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.max_sbrked_mem
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.current_mallinfo
+                0x0000000000000000       0x28 common/built-in.o
+ .bss.mem_malloc_end
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.top_pad   0x0000000000000000        0x4 common/built-in.o
+ .bss.mem_malloc_start
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.env_flags
+                0x0000000000000000        0x1 common/built-in.o
+ .bss.env_ptr   0x0000000000000000        0x4 common/built-in.o
+ .bss.save_addr
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.save_size
+                0x0000000000000000        0x4 common/built-in.o
+ .bss.devs      0x0000000000000000       0x3c common/built-in.o
+ .bss.stdio_devices
+                0x0000000000000000        0xc common/built-in.o
+ .text          0x0000000000000000        0x0 drivers/gpio/built-in.o
+ .text.mxs_gpio_init
+                0x0000000000000000       0x34 drivers/gpio/built-in.o
+ .text.gpio_set_value
+                0x0000000000000000       0x48 drivers/gpio/built-in.o
+ .text.gpio_direction_output
+                0x0000000000000000       0x3c drivers/gpio/built-in.o
+ .text.gpio_request
+                0x0000000000000000       0x14 drivers/gpio/built-in.o
+ .text.gpio_free
+                0x0000000000000000        0x8 drivers/gpio/built-in.o
+ .data          0x0000000000000000        0x0 drivers/gpio/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/gpio/built-in.o
+ .text          0x0000000000000000        0x0 lib/built-in.o
+ .text.crc32_no_comp
+                0x0000000000000000       0xec lib/built-in.o
+ .text.crc32    0x0000000000000000       0x14 lib/built-in.o
+ .text.crc32_wd
+                0x0000000000000000        0x4 lib/built-in.o
+ .text.crc32_wd_buf
+                0x0000000000000000       0x4c lib/built-in.o
+ .text.print_size
+                0x0000000000000000      0x144 lib/built-in.o
+ .text.display_options
+                0x0000000000000000       0x20 lib/built-in.o
+ .text.print_buffer
+                0x0000000000000000      0x1b4 lib/built-in.o
+ .text.__div64_32
+                0x0000000000000000       0xf4 lib/built-in.o
+ .text.hwalk_r  0x0000000000000000       0x58 lib/built-in.o
+ .text._hdelete
+                0x0000000000000000       0x50 lib/built-in.o
+ .text.hdestroy_r
+                0x0000000000000000       0x74 lib/built-in.o
+ .text.hsearch_r
+                0x0000000000000000      0x51c lib/built-in.o
+ .text.hdelete_r
+                0x0000000000000000       0xf0 lib/built-in.o
+ .text.hmatch_r
+                0x0000000000000000       0xa0 lib/built-in.o
+ .text.hcreate_r
+                0x0000000000000000       0xa8 lib/built-in.o
+ .text.himport_r
+                0x0000000000000000      0x404 lib/built-in.o
+ .text.skip_spaces
+                0x0000000000000000       0x24 lib/built-in.o
+ .text.strim    0x0000000000000000       0x74 lib/built-in.o
+ .text.strncasecmp
+                0x0000000000000000       0x7c lib/built-in.o
+ .text.strcasecmp
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.strcpy   0x0000000000000000       0x1c lib/built-in.o
+ .text.strncpy  0x0000000000000000       0x28 lib/built-in.o
+ .text.strcat   0x0000000000000000       0x30 lib/built-in.o
+ .text.strncat  0x0000000000000000       0x5c lib/built-in.o
+ .text.strcmp   0x0000000000000000       0x30 lib/built-in.o
+ .text.strncmp  0x0000000000000000       0x48 lib/built-in.o
+ .text.strchr   0x0000000000000000       0x2c lib/built-in.o
+ .text.strrchr  0x0000000000000000       0x3c lib/built-in.o
+ .text.strlen   0x0000000000000000       0x20 lib/built-in.o
+ .text.strnlen  0x0000000000000000       0x28 lib/built-in.o
+ .text.strspn   0x0000000000000000       0x44 lib/built-in.o
+ .text.strpbrk  0x0000000000000000       0x38 lib/built-in.o
+ .text.strtok   0x0000000000000000       0xcc lib/built-in.o
+ .text.strsep   0x0000000000000000       0x64 lib/built-in.o
+ .text.strswab  0x0000000000000000       0x48 lib/built-in.o
+ .text.memset   0x0000000000000000       0x74 lib/built-in.o
+ .text.bcopy    0x0000000000000000       0x28 lib/built-in.o
+ .text.memcpy   0x0000000000000000       0x74 lib/built-in.o
+ .text.memmove  0x0000000000000000       0x64 lib/built-in.o
+ .text.memcmp   0x0000000000000000       0x38 lib/built-in.o
+ .text.memscan  0x0000000000000000       0x30 lib/built-in.o
+ .text.strstr   0x0000000000000000       0x80 lib/built-in.o
+ .text.memchr   0x0000000000000000       0x2c lib/built-in.o
+ .text.memchr_inv
+                0x0000000000000000      0x128 lib/built-in.o
+ .text.strdup   0x0000000000000000       0x58 lib/built-in.o
+ .text.timer_init
+                0x0000000000000000        0x8 lib/built-in.o
+ .text.tick_to_time
+                0x0000000000000000       0x54 lib/built-in.o
+ .text.get_ticks
+                0x0000000000000000       0x3c lib/built-in.o
+ .text.__udelay
+                0x0000000000000000       0x74 lib/built-in.o
+ .text.udelay   0x0000000000000000       0x30 lib/built-in.o
+ .text.mdelay   0x0000000000000000       0x24 lib/built-in.o
+ .text.timer_get_us
+                0x0000000000000000       0x24 lib/built-in.o
+ .text.get_timer
+                0x0000000000000000       0x18 lib/built-in.o
+ .text.simple_strtoul
+                0x0000000000000000       0xb0 lib/built-in.o
+ .text.simple_strtol
+                0x0000000000000000       0x28 lib/built-in.o
+ .text.ustrtoul
+                0x0000000000000000       0x74 lib/built-in.o
+ .text.simple_strtoull
+                0x0000000000000000       0xd4 lib/built-in.o
+ .text.ustrtoull
+                0x0000000000000000       0x8c lib/built-in.o
+ .text.put_dec_trunc
+                0x0000000000000000       0xdc lib/built-in.o
+ .text.simple_itoa
+                0x0000000000000000       0x58 lib/built-in.o
+ .text.panic    0x0000000000000000       0x48 lib/built-in.o
+ .text.__assert_fail
+                0x0000000000000000       0x14 lib/built-in.o
+ .text.string   0x0000000000000000       0xa8 lib/built-in.o
+ .text.put_dec  0x0000000000000000      0x134 lib/built-in.o
+ .text.number   0x0000000000000000      0x24c lib/built-in.o
+ .text.strict_strtoul
+                0x0000000000000000       0x78 lib/built-in.o
+ .text.vsprintf
+                0x0000000000000000      0x668 lib/built-in.o
+ .text.sprintf  0x0000000000000000       0x28 lib/built-in.o
+ .text.print_grouped_ull
+                0x0000000000000000       0x90 lib/built-in.o
+ .rodata.crc_table
+                0x0000000000000000      0x400 lib/built-in.o
+ .rodata._ctype
+                0x0000000000000000      0x100 lib/built-in.o
+ .rodata.str1.1
+                0x0000000000000000      0x109 lib/built-in.o
+ .rodata.names.3876
+                0x0000000000000000        0x8 lib/built-in.o
+ .rodata.hex_asc
+                0x0000000000000000       0x14 lib/built-in.o
+ .rodata.digits.4096
+                0x0000000000000000       0x10 lib/built-in.o
+ .data          0x0000000000000000        0x0 lib/built-in.o
+ .bss           0x0000000000000000        0x0 lib/built-in.o
+ .bss.errno     0x0000000000000000        0x4 lib/built-in.o
+ .bss.___strtok
+                0x0000000000000000        0x4 lib/built-in.o
+ .bss.local.4560
+                0x0000000000000000       0x18 lib/built-in.o
+ .text          0x0000000000000000        0x0 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .data          0x0000000000000000        0x0 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .bss           0x0000000000000000        0x0 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x4 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x4 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .data          0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .bss           0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .text          0x0000000000000000       0xf4 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .data          0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .bss           0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000000000       0x28 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .debug_line    0x0000000000000000       0x93 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .debug_info    0x0000000000000000       0xb7 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_divsi3.o)
+ .text          0x0000000000000000       0x1c /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .data          0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000000000       0x66 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .debug_info    0x0000000000000000       0xb7 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_lshrdi3.o)
+ .text          0x0000000000000000       0x1c /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .bss           0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x0000000000000000       0x1b /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .debug_line    0x0000000000000000       0x66 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .debug_info    0x0000000000000000       0xb7 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000000000000000       0x14 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_ashldi3.o)
+ .data          0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000000000000     0x1250
+ arch/arm/cpu/arm926ejs/mxs/start.o(.text*)
+ .text          0x0000000000000000       0xd0 arch/arm/cpu/arm926ejs/mxs/start.o
+                0x0000000000000000                _start
+                0x0000000000000060                _TEXT_BASE
+                0x0000000000000064                _bss_start_ofs
+                0x0000000000000068                _bss_end_ofs
+                0x000000000000006c                _end_ofs
+                0x0000000000000070                IRQ_STACK_START_IN
+ *(.text*)
+ .text.mxs_iomux_setup_pad
+                0x00000000000000d0      0x108 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x00000000000000d0                mxs_iomux_setup_pad
+ .text.mxs_iomux_setup_multiple_pads
+                0x00000000000001d8       0x38 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x00000000000001d8                mxs_iomux_setup_multiple_pads
+ .text.early_delay
+                0x0000000000000210       0x20 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x0000000000000210                early_delay
+ .text.mxs_common_spl_init
+                0x0000000000000230      0x150 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x0000000000000230                mxs_common_spl_init
+ .text.mxs_lradc_init
+                0x0000000000000380       0x4c arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x0000000000000380                mxs_lradc_init
+ .text.mxs_lradc_enable_batt_measurement
+                0x00000000000003cc       0xb8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x00000000000003cc                mxs_lradc_enable_batt_measurement
+ .text.mxs_mem_init
+                0x0000000000000484      0x174 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x0000000000000484                mxs_mem_init
+ .text.mxs_mem_get_size
+                0x00000000000005f8       0x2c arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x00000000000005f8                mxs_mem_get_size
+ .text.mxs_get_vddio_power_source_off
+                0x0000000000000624        0x8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_get_vddd_power_source_off
+                0x000000000000062c        0x8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_enable_4p2_dcdc_input
+                0x0000000000000634      0x1cc arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_power_set_vddx
+                0x0000000000000800      0x1cc arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .text.mxs_power_init
+                0x00000000000009cc      0x61c arch/arm/cpu/arm926ejs/mxs/built-in.o
+                0x00000000000009cc                mxs_power_init
+ .text.mxs_adjust_memory_params
+                0x0000000000000fe8       0x10 board/freescale/mx28evk/built-in.o
+                0x0000000000000fe8                mxs_adjust_memory_params
+ .text.board_init_ll
+                0x0000000000000ff8       0x10 board/freescale/mx28evk/built-in.o
+                0x0000000000000ff8                board_init_ll
+ .text.get_ram_size
+                0x0000000000001008      0x110 common/built-in.o
+                0x0000000000001008                get_ram_size
+ .text.gpio_get_value
+                0x0000000000001118       0x28 drivers/gpio/built-in.o
+                0x0000000000001118                gpio_get_value
+ .text.gpio_direction_input
+                0x0000000000001140       0x30 drivers/gpio/built-in.o
+                0x0000000000001140                gpio_direction_input
+ .text.hang     0x0000000000001170        0x4 lib/built-in.o
+                0x0000000000001170                hang
+ .text.raise    0x0000000000001174        0x8 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+                0x0000000000001174                raise
+ .text          0x000000000000117c       0xc4 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+                0x000000000000117c                __udivsi3
+                0x000000000000117c                __aeabi_uidiv
+                0x0000000000001228                __aeabi_uidivmod
+ .text          0x0000000000001240       0x10 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+                0x0000000000001240                __div0
+
+.glue_7         0x0000000000001250        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x0000000000001250        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000001250        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x0000000000001250        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x0000000000001250        0x0
+ .iplt          0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/start.o
+                0x0000000000001250                . = ALIGN (0x4)
+
+.rodata         0x0000000000001250      0x58b
+ *(SORT(.rodata*))
+ .rodata.iomux_boot
+                0x0000000000001250       0x18 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.iomux_setup
+                0x0000000000001268      0x1d4 board/freescale/mx28evk/built-in.o
+                0x0000000000001268                iomux_setup
+ .rodata.mxs_boot_modes
+                0x000000000000143c      0x110 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.mxs_vddd_cfg
+                0x000000000000154c       0x20 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.mxs_vddio_cfg
+                0x000000000000156c       0x20 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .rodata.str1.1
+                0x000000000000158c      0x24f arch/arm/cpu/arm926ejs/mxs/built-in.o
+                                        0x3b0 (size before relaxing)
+                0x00000000000017dc                . = ALIGN (0x4)
+
+.data           0x00000000000017dc      0x2f8
+ *(.data*)
+ .data.dram_vals
+                0x00000000000017dc      0x2f8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+
+.igot.plt       0x0000000000001ad4        0x0
+ .igot.plt      0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/start.o
+                0x0000000000001ad4                . = ALIGN (0x4)
+
+.rel.dyn        0x0000000000001ad4        0x0
+                0x0000000000001ad4                __rel_dyn_start = .
+ *(.rel*)
+ .rel.iplt      0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/start.o
+                0x0000000000001ad4                __rel_dyn_end = .
+
+.bss            0x0000000000001ad4        0x0
+                0x0000000000001ad4                . = ALIGN (0x4)
+                0x0000000000001ad4                __bss_start = .
+ *(.bss*)
+                0x0000000000001ad4                . = ALIGN (0x4)
+                0x0000000000001ad4                __bss_end = .
+                0x0000000000001ad4                _end = .
+
+.dynsym
+ *(.dynsym)
+
+.dynbss
+ *(.dynbss)
+
+.dynstr
+ *(.dynstr*)
+
+.dynamic
+ *(.dynamic*)
+
+.hash
+ *(.hash*)
+
+.plt
+ *(.plt*)
+
+.interp
+ *(.interp*)
+
+.gnu
+ *(.gnu*)
+
+.ARM.exidx
+ *(.ARM.exidx*)
+LOAD arch/arm/cpu/arm926ejs/mxs/start.o
+START GROUP
+LOAD arch/arm/cpu/arm926ejs/built-in.o
+LOAD arch/arm/cpu/arm926ejs/mxs/built-in.o
+LOAD arch/arm/cpu/built-in.o
+LOAD arch/arm/lib/built-in.o
+LOAD board/freescale/common/built-in.o
+LOAD board/freescale/mx28evk/built-in.o
+LOAD common/built-in.o
+LOAD drivers/gpio/built-in.o
+LOAD fs/built-in.o
+LOAD lib/built-in.o
+END GROUP
+LOAD /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+LOAD /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x27
+ .ARM.attributes
+                0x0000000000000000       0x1b arch/arm/cpu/arm926ejs/mxs/start.o
+ .ARM.attributes
+                0x000000000000001b       0x2b arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .ARM.attributes
+                0x0000000000000046       0x2b board/freescale/mx28evk/built-in.o
+ .ARM.attributes
+                0x0000000000000071       0x2b common/built-in.o
+ .ARM.attributes
+                0x000000000000009c       0x2b drivers/gpio/built-in.o
+ .ARM.attributes
+                0x00000000000000c7       0x2b lib/built-in.o
+ .ARM.attributes
+                0x00000000000000f2       0x2b /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x000000000000011d       0x1b /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x0000000000000138       0x1b /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.comment        0x0000000000000000       0x56
+ .comment       0x0000000000000000       0x38 arch/arm/cpu/arm926ejs/mxs/built-in.o
+                                        0x1c8 (size before relaxing)
+ .comment       0x0000000000000000       0x39 board/freescale/mx28evk/built-in.o
+ .comment       0x0000000000000000      0x201 common/built-in.o
+ .comment       0x0000000000000000       0x39 drivers/gpio/built-in.o
+ .comment       0x0000000000000038       0x1e lib/built-in.o
+                                        0x225 (size before relaxing)
+ .comment       0x0000000000000000       0x39 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 board/freescale/mx28evk/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 common/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/gpio/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.debug_line     0x0000000000000000     0x51cf
+ .debug_line    0x0000000000000000       0x65 arch/arm/cpu/arm926ejs/mxs/start.o
+ .debug_line    0x0000000000000065     0x16ff arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_line    0x0000000000001764      0x18f board/freescale/mx28evk/built-in.o
+ .debug_line    0x00000000000018f3     0x1e1f common/built-in.o
+ .debug_line    0x0000000000003712      0x247 drivers/gpio/built-in.o
+ .debug_line    0x0000000000003959     0x1656 lib/built-in.o
+ .debug_line    0x0000000000004faf      0x133 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .debug_line    0x00000000000050e2       0x87 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .debug_line    0x0000000000005169       0x66 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.debug_info     0x0000000000000000    0x1e01c
+ .debug_info    0x0000000000000000       0x77 arch/arm/cpu/arm926ejs/mxs/start.o
+ .debug_info    0x0000000000000077    0x1123b arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_info    0x00000000000112b2      0x3f2 board/freescale/mx28evk/built-in.o
+ .debug_info    0x00000000000116a4     0x7baa common/built-in.o
+ .debug_info    0x000000000001924e      0x5ff drivers/gpio/built-in.o
+ .debug_info    0x000000000001984d     0x4355 lib/built-in.o
+ .debug_info    0x000000000001dba2      0x30c /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .debug_info    0x000000000001deae       0xb7 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000000001df65       0xb7 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.debug_abbrev   0x0000000000000000     0x4617
+ .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/arm926ejs/mxs/start.o
+ .debug_abbrev  0x0000000000000014     0x1516 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_abbrev  0x000000000000152a      0x15a board/freescale/mx28evk/built-in.o
+ .debug_abbrev  0x0000000000001684     0x193f common/built-in.o
+ .debug_abbrev  0x0000000000002fc3      0x1e3 drivers/gpio/built-in.o
+ .debug_abbrev  0x00000000000031a6     0x1328 lib/built-in.o
+ .debug_abbrev  0x00000000000044ce      0x121 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x00000000000045ef       0x14 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000004603       0x14 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.debug_aranges  0x0000000000000000      0xa20
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/cpu/arm926ejs/mxs/start.o
+ .debug_aranges
+                0x0000000000000020      0x208 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_aranges
+                0x0000000000000228       0x28 board/freescale/mx28evk/built-in.o
+ .debug_aranges
+                0x0000000000000250      0x408 common/built-in.o
+ .debug_aranges
+                0x0000000000000658       0x50 drivers/gpio/built-in.o
+ .debug_aranges
+                0x00000000000006a8      0x308 lib/built-in.o
+ .debug_aranges
+                0x00000000000009b0       0x30 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x00000000000009e0       0x20 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000000a00       0x20 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_dvmd_lnx.o)
+
+.debug_pubnames
+                0x0000000000000000     0x113e
+ .debug_pubnames
+                0x0000000000000000      0x372 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_pubnames
+                0x0000000000000372       0x51 board/freescale/mx28evk/built-in.o
+ .debug_pubnames
+                0x00000000000003c3      0x83e common/built-in.o
+ .debug_pubnames
+                0x0000000000000c01       0x9c drivers/gpio/built-in.o
+ .debug_pubnames
+                0x0000000000000c9d      0x44f lib/built-in.o
+ .debug_pubnames
+                0x00000000000010ec       0x52 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+
+.debug_frame    0x0000000000000000     0x1b08
+ .debug_frame   0x0000000000000000      0x4e8 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_frame   0x00000000000004e8       0x30 board/freescale/mx28evk/built-in.o
+ .debug_frame   0x0000000000000518      0xc0c common/built-in.o
+ .debug_frame   0x0000000000001124       0x8c drivers/gpio/built-in.o
+ .debug_frame   0x00000000000011b0      0x8f0 lib/built-in.o
+ .debug_frame   0x0000000000001aa0       0x40 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+ .debug_frame   0x0000000000001ae0       0x28 /work/apron/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabi/4.4.7/libgcc.a(_udivsi3.o)
+
+.debug_str      0x0000000000000000     0xb618
+ .debug_str     0x0000000000000000     0x902f arch/arm/cpu/arm926ejs/mxs/built-in.o
+                                       0xf593 (size before relaxing)
+ .debug_str     0x000000000000902f       0x54 board/freescale/mx28evk/built-in.o
+                                        0x2ae (size before relaxing)
+ .debug_str     0x0000000000009083     0x1f3a common/built-in.o
+                                       0x40b1 (size before relaxing)
+ .debug_str     0x000000000000afbd       0xbf drivers/gpio/built-in.o
+                                        0x2e8 (size before relaxing)
+ .debug_str     0x000000000000b07c      0x518 lib/built-in.o
+                                       0x217b (size before relaxing)
+ .debug_str     0x000000000000b594       0x84 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+                                        0x247 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x68b0
+ .debug_loc     0x0000000000000000      0xf1b arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_loc     0x0000000000000f1b       0x26 board/freescale/mx28evk/built-in.o
+ .debug_loc     0x0000000000000f41     0x31f2 common/built-in.o
+ .debug_loc     0x0000000000004133       0xc2 drivers/gpio/built-in.o
+ .debug_loc     0x00000000000041f5     0x26a8 lib/built-in.o
+ .debug_loc     0x000000000000689d       0x13 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o
+
+.debug_ranges   0x0000000000000000     0x17e8
+ .debug_ranges  0x0000000000000000      0x970 arch/arm/cpu/arm926ejs/mxs/built-in.o
+ .debug_ranges  0x0000000000000970       0x20 board/freescale/mx28evk/built-in.o
+ .debug_ranges  0x0000000000000990      0x678 common/built-in.o
+ .debug_ranges  0x0000000000001008       0x78 drivers/gpio/built-in.o
+ .debug_ranges  0x0000000000001080      0x740 lib/built-in.o
+ .debug_ranges  0x00000000000017c0       0x28 /work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/eabi_compat.o

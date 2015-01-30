@@ -1,0 +1,678 @@
+env_embedded.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/common/env_embedded.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mx28evk.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_default.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mxs.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/regs-base.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux-mx28.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_fallbacks.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_uncmd_spl.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/environment.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/env_attr.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/env_callback.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/env_flags.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linker_lists.h \
+ /usr/include/search.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/stringify.h
+image.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/common/image.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/mkimage.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/os_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/include/sys/stat.h /usr/include/bits/timex.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/sha1.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/imagetool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/u-boot/md5.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/image.h \
+ /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/linux/swab.h /usr/include/asm/swab.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/u-boot/crc.h
+image-sig.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/common/image-sig.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/mkimage.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/os_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/include/sys/stat.h /usr/include/bits/timex.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/sha1.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/imagetool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/image.h \
+ /usr/include/asm/byteorder.h \
+ /usr/include/linux/byteorder/little_endian.h /usr/include/linux/types.h \
+ /usr/include/linux/swab.h /usr/include/asm/swab.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/rsa.h
+crc32.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/crc32.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /usr/include/arpa/inet.h /usr/include/netinet/in.h \
+ /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/bits/in.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/u-boot/crc.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/u-boot/zlib.h
+md5.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/md5.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/u-boot/md5.h
+sha1.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/sha1.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/watchdog.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/sha1.h
+envcrc.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/envcrc.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mx28evk.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_default.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mxs.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/regs-base.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux-mx28.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_fallbacks.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_uncmd_spl.h
+img2srec.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/img2srec.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/os_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/include/ctype.h /usr/include/elf.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h
+gen_eth_addr.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/gen_eth_addr.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/bits/timex.h
+mxsboot.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/mxsboot.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /usr/include/sys/stat.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
+ /usr/include/bits/confname.h /usr/include/getopt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h
+fdt.o: /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/fdt.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/libfdt_internal.h
+fdt_ro.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/fdt_ro.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/libfdt_internal.h
+fdt_rw.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/fdt_rw.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/libfdt_internal.h
+fdt_strerror.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/fdt_strerror.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/libfdt_internal.h
+fdt_wip.o: \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/fdt_wip.c \
+ /usr/include/stdc-predef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/compiler.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdint.h \
+ /usr/include/stdint.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/wchar.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/byteswap-16.h /usr/include/xlocale.h \
+ /usr/include/sys/types.h /usr/include/time.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-float.h /usr/include/stdio.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/string.h /usr/include/sys/mman.h /usr/include/bits/mman.h \
+ /usr/include/bits/mman-linux.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/bits/uio.h /usr/include/bits/stat.h /usr/include/byteswap.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
+ /usr/include/asm/posix_types.h /usr/include/asm/posix_types_64.h \
+ /usr/include/asm-generic/posix_types.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/asm/types.h \
+ /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
+ /usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/libfdt_env.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/fdt_host.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/libfdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/fdt.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/tools/../include/fdt_support.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/lib/libfdt/libfdt_internal.h

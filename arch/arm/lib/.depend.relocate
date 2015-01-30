@@ -1,0 +1,3 @@
+relocate.o: relocate.S \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/linkage.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/linkage.h

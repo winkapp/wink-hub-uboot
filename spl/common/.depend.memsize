@@ -1,0 +1,14 @@
+/work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/common/memsize.o: \
+ memsize.c /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mx28evk.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_default.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mxs.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/regs-base.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux-mx28.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/types.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_fallbacks.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_uncmd_spl.h

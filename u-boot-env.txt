@@ -1,0 +1,22 @@
+app_boot=run appboot_args && nand read ${loadaddr} app-kernel 0x00400000 && bootm ${loadaddr}
+app_boot_bad=run updater_args; setenv bootargs ${bootargs} badapp; nand read ${loadaddr} updater-kernel 0x00400000; bootm ${loadaddr}
+appboot_args=setenv bootargs 'noinitrd console=ttyAM0,115200 rootfstype=ubifs ubi.mtd=5 root=ubi0:rootfs rw gpmi';
+baudrate=115200
+boot_app=run app_boot || run app_boot_bad
+boot_getflag=mtdparts default && ubi part database && ubifsmount ubi0:database && mw 42000000 0 8 && ubifsload 42000000 DO_UPDATE 1 && run boot_logic
+boot_logic=mw 42000004 30; if cmp 42000000 42000004 1; then run boot_app; else run boot_updater; fi;
+boot_updater=run updater_boot || run updater_boot_bad
+bootcmd=mtdparts default; run boot_getflag || echo Falling back to updater...; run boot_updater
+bootdelay=2
+bootfile=uImage
+ethact=FEC0
+ethaddr=00:04:00:00:00:00
+ethprime=FEC0
+loadaddr=0x42000000
+stderr=serial
+stdin=serial
+stdout=serial
+updater_args=setenv bootargs 'noinitrd console=ttyAM0,115200 rootfstype=ubifs ubi.mtd=2 root=ubi0:rootfs rw gpmi';
+updater_boot=run updater_args && nand read ${loadaddr} updater-kernel 0x00400000 && bootm ${loadaddr}
+updater_boot_bad=run appboot_args; setenv bootargs ${bootargs} badupdater; nand read ${loadaddr} app-kernel 0x00400000; bootm ${loadaddr}
+

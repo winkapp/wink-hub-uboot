@@ -1,0 +1,2 @@
+ctype.o: ctype.c \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/ctype.h

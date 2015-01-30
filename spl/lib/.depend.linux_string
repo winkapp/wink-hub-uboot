@@ -1,0 +1,24 @@
+/work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/lib/linux_string.o: \
+ linux_string.c \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/ctype.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/string.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/types.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/posix_types.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/stddef.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/posix_types.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/types.h \
+ /opt/freescale/usr/local/gcc-4.4.4-glibc-2.11.1-multilib-1.0/arm-fsl-linux-gnueabi/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.4.4/include/stdbool.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/string.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mx28evk.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_default.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mxs.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/regs-base.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux-mx28.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_fallbacks.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_uncmd_spl.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/linux_string.h

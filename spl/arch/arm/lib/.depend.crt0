@@ -1,0 +1,18 @@
+/work/apron/iMX/linux/ltib/sources/u-boot-imx/spl/arch/arm/lib/crt0.o: \
+ crt0.S /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_defaults.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mx28evk.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_cmd_default.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/configs/mxs.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/regs-base.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux-mx28.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/arch/iomux.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/types.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/config.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_fallbacks.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/config_uncmd_spl.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/asm-offsets.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/generated/generic-asm-offsets.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/include/linux/linkage.h \
+ /work/apron/iMX/linux/ltib/sources/u-boot-imx/arch/arm/include/asm/linkage.h
